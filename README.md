@@ -1,1 +1,210 @@
-# laith-yousif-realtor
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Laith Yousif | Top Agent Realty</title>
+
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    color: #333;
+}
+
+/* HEADER */
+header {
+    background: #111;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa') no-repeat center/cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 40px;
+    background: rgba(0,0,0,0.6);
+    padding: 10px 20px;
+}
+
+/* SECTION */
+section {
+    padding: 40px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* STATS */
+.stats {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.stat-box {
+    background: white;
+    padding: 20px;
+    flex: 1;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* SALES */
+.sales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* TESTIMONIALS */
+.testimonial {
+    background: white;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-left: 5px solid #111;
+}
+
+/* CONTACT */
+.contact {
+    text-align: center;
+}
+
+button {
+    background: black;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #111;
+    color: white;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+    <h1>Laith Yousif</h1>
+    <p>Top Agent Realty | 5.0 ⭐ Realtor</p>
+</header>
+
+<div class="hero">
+    <h2>Your Trusted Real Estate Expert</h2>
+</div>
+
+<section>
+    <h2>About Me</h2>
+    <p>
+        I am a dedicated real estate professional with over 8 years of experience.
+        My goal is to provide honest advice, strong negotiation, and the best
+        results for every client. As a father of three, I understand that buying
+        a home is one of life’s biggest decisions.
+    </p>
+</section>
+
+<section class="stats">
+    <div class="stat-box">
+        <h2>105</h2>
+        <p>Total Sales</p>
+    </div>
+    <div class="stat-box">
+        <h2>24</h2>
+        <p>Sales (12 Months)</p>
+    </div>
+    <div class="stat-box">
+        <h2>$265K</h2>
+        <p>Average Price</p>
+    </div>
+    <div class="stat-box">
+        <h2>5.0 ⭐</h2>
+        <p>60 Reviews</p>
+    </div>
+</section>
+
+<section>
+    <h2>Recent Sales</h2>
+    <div class="sales">
+
+        <div class="card">
+            <h3>$196,000</h3>
+            <p>Sterling Heights, MI</p>
+            <p>3 Bed • 2 Bath</p>
+        </div>
+
+        <div class="card">
+            <h3>$164,000</h3>
+            <p>Warren, MI</p>
+            <p>2 Bed • 1 Bath</p>
+        </div>
+
+        <div class="card">
+            <h3>$343,500</h3>
+            <p>Sterling Heights, MI</p>
+            <p>3 Bed • 3 Bath</p>
+        </div>
+
+        <div class="card">
+            <h3>$210,000</h3>
+            <p>Hamtramck, MI</p>
+            <p>3 Bed • 1 Bath</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2>Client Reviews</h2>
+
+    <div class="testimonial">
+        "Laith made everything easy and helped me find the perfect home."
+    </div>
+
+    <div class="testimonial">
+        "Professional, patient, and always there when needed."
+    </div>
+
+    <div class="testimonial">
+        "Highly recommend — great experience from start to finish."
+    </div>
+
+</section>
+
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>Ready to buy or sell your home?</p>
+    <button>Contact Now</button>
+</section>
+
+<footer>
+    <p>© 2026 Laith Yousif | Top Agent Realty</p>
+</footer>
+
+</body>
+</html>
